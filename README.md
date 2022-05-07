@@ -5,9 +5,12 @@ https://127.0.0.1:5000/api/pools/NEAR-WETH
 
 Logic is partially replicated using [THIS REPO](https://github.com/vfat-tools/vfat-tools/blob/master/src/static/js/aurora_auroraswap.js)
 
+Async nature 
+
 ## Running locally
 ```
 pipenv install
+pipenv shell
 FLASK_APP=main.py flask run 
 ```
 
