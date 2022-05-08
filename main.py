@@ -1,6 +1,5 @@
 from flask import Flask
 from web3 import Web3
-from web3.eth import AsyncEth
 import requests
 import asyncio
 
